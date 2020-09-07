@@ -737,11 +737,7 @@ export default class GooglePlacesAutocomplete extends Component {
   };
 
   _onBlur = () => {
-    this.triggerBlur();
 
-    this.setState({
-      listViewDisplayed: false,
-    });
   };
 
   _onFocus = () => this.setState({ listViewDisplayed: true });
